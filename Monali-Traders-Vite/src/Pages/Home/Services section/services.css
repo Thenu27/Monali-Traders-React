@@ -1,0 +1,73 @@
+.services-section{
+    margin: 0%;
+    background-color: #FFEED1;
+    height: 1250px;
+}
+
+.services-main-title{
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    color: #FF0000;
+    font-size: 100px;
+    margin:0 ;
+    width: 100vw;
+    text-align: center;
+    height: 134px;
+    padding-top: 35px;
+}
+
+.service-container{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    background-color: #FF3D37;
+    margin-top: 44px;
+
+}
+
+.service-container2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.service-title{
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    max-width: 20vw;
+    line-height: 97%;
+    letter-spacing: 0.96px;
+    color: #FCFF35;
+    margin-left: 50px;
+    min-height: 185px;
+    margin: auto;
+
+}
+
+.service-description{
+    font-size: 22px;
+    color: white;
+    font-family: 'Roboto','sans-serif';
+    font-weight: 400;
+    line-height: 172%;
+    letter-spacing: 0.88px;
+    width: 618px;
+    margin-left: 3vw;
+    min-height: 185px;
+}
+
+.service-image-container{
+    height: auto;
+    margin-left: auto;
+    width: 25vw;
+}
+.services-img{
+    height: 100%;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
