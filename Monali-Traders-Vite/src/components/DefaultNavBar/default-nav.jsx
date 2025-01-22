@@ -1,7 +1,8 @@
-import './NavBar.css';
+import './default-nav.css';
 import logo from '../../assets/Logo.png'
-import { useNavigate } from 'react-router-dom';
-const NavBar =()=>{
+import { useLocation, useNavigate } from 'react-router-dom';
+
+const DefaultNav =()=>{
     const navigate =useNavigate();
 
     const goToContactPage =()=>{
@@ -16,13 +17,17 @@ const NavBar =()=>{
         navigate('/products')
     }
 
+    const location =useLocation();
+
+
+
     return(
-        <div className='nav-container'>
+        <div className={location.pathname==='/'? 'not-display':'default-nav-container'}>
             <div className='logo-container'>
-                <img className='logo-img' src={logo}/>
+                <img className='logo-img-default' src={logo}/>
             </div>
 
-            <div className='nav-link-container'>
+            <div className='nav-link-container default-nav-link-container'>
                 
                     <a onClick={goTOHome} className='nav-link' href="#">Home</a>                
                     <a onClick={goToProductsPage} className='nav-link' href="#">Products</a>
@@ -31,10 +36,10 @@ const NavBar =()=>{
                 
 
             </div>
-            <button onClick={goToContactPage} className='contact-btn'>Contact Us</button>
+            <button onClick={goToContactPage} className='contact-btn default-nav-contact-btn'>Contact Us</button>
 
         </div>
     )
 }
 
-export default NavBar;
+export default DefaultNav;

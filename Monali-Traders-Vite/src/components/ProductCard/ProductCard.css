@@ -1,0 +1,36 @@
+.products-container{
+    display: flex;
+    flex-direction: row;
+    gap:37px;
+    min-height: 512px;
+
+}
+
+.product-card{
+    width: 258px;
+    min-height: 412px;
+    margin-top: 20px;
+}
+.product-img{
+    width:221px;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px solid black;
+
+}
+
+.product-name{
+    margin-left: 21px;
+}
+
+.product-intro{
+    margin-left: 21px;
+    width: 90%;
+
+}
+
+.product-view-btn{
+    margin-left: 17px;
+
+}

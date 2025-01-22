@@ -1,12 +1,24 @@
-import './App.css'
-import Home from './Pages/Home/Home'
-
+import './App.css';
+import Home from './Pages/Home/Home';
+import { Route,Routes } from 'react-router-dom';
+import ContactPage from './Pages/contact-page/contact';
+import DefaultNav from './components/DefaultNavBar/default-nav';
+import Products from './Pages/Products-page/Products';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
+
+
   return (
     <div className='App'>
-      <Home/>
+      <DefaultNav/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/contact' element={<ContactPage/>}/>
+        <Route path='/products' element={<Products/>}/>
+      </Routes>
+      <Footer/>
     </div>
   )
 }

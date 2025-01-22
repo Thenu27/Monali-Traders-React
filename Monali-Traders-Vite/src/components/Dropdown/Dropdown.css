@@ -1,0 +1,53 @@
+.accordion {
+  background-color: #FFE5E5;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 690px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  margin-top: 15px;
+  border:1px solid #FF1313;
+  border-radius: 10px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+}
+
+.accordion.active,
+.accordion:hover {
+  background-color: #fecaca;
+  width: 600px;
+
+}
+
+.panel {
+  padding: 8px;
+  display: none;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: auto;
+
+}
+
+/* Show the panel when it is active */
+.panel {
+  display: block;
+  width: 690px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  margin-top: 5px;
+  line-height: 150.9%;
+  transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+
+
+  
+}
+
+.answer{
+  width:95%
+}

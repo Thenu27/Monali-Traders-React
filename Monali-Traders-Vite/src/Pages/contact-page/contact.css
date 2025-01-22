@@ -1,0 +1,126 @@
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    gap:91px
+}
+
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    margin-top: 85px;
+}
+
+
+.contact-title{
+    font-size: 55px;
+    font-family: 'Teko',sans-serif;
+    font-weight: 500;
+    color: #FF4747;
+    margin: 0%;
+    padding: 0%;
+    width: 537px;
+
+}
+
+.contact-input-name{
+    width:538px;
+    height: 47px;
+    border-radius: 23px;
+    border: 1px solid #FF4747;
+    margin-top: 15px;
+}
+
+.contact-input-message{
+    resize: none;
+    width: 538px;
+    height: 237px;
+    overflow: auto;
+}
+
+.contact-submit-btn{
+    width:111px;
+    height: 37px;
+    background-color: #FF4747;
+    color: white;
+    border-radius: 14px;
+    border:none;
+    margin-top: 23px;
+}
+.location-container{
+    margin-top: 94px;
+}
+.location{
+    width: 632px;
+    height: 517px;
+    border-radius: 16px;
+}
+
+.contact-card{
+    box-shadow: 0px 3px 15.2px rgba(0, 0, 0, 0.25);
+    width: 484.12px;
+    height:204.72px;
+    margin: auto;
+    margin-top: 112px;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.contact-name{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color:#FF4747;
+    width: 100%;
+    text-align: center;
+    height: 32.64px;
+    margin: 0%;
+    margin-top: 29px;
+
+}
+
+.contact-location{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    width: 268.66px;
+    text-align: center;
+
+}
+
+.email-phone{
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #FF0000;
+    height: 47.04px;
+    font-family: 'Roboto',sans-serif;
+}
+.email{
+    text-align: center;
+    border: 1px solid #FF0000;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    margin-left: auto;
+    align-content: center;
+}
+.phone{
+    text-align: center;
+    border: 1px solid #FF0000;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    margin-left: auto;
+    align-content: center;
+}
+
+
