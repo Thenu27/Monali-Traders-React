@@ -1,7 +1,8 @@
 .services-section{
     margin: 0%;
     background-color: #FFEED1;
-    height: 1250px;
+   min-height: 1250px;
+    margin-bottom: 15px;
 }
 
 .services-main-title{
@@ -69,5 +70,54 @@
 
 }
 
+/*Small mobile*/
+@media (max-width:400px){
+    .services-section{
+        min-height: 500px;
+
+    }
+    .services-main-title{
+        font-size: 48px;
+        height: 40px;
+    }
+
+    .service-container{
+        display: flex;
+        flex-direction: column;
+        min-height: 170px;
+        margin-bottom: 15px;
+    
+    }
+    .service-title{
+        font-size: 33px;
+        max-width: 96vw;
+        margin: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top:15px;
+        min-height: 30px;
+        margin-bottom: 5px;
+
+    }
+    .service-description{
+        font-size: 17px;
+        line-height: 150%;
+        width: 90vw;
+        text-align: justify;
+        margin: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 185px;
+        padding-bottom: 10px;
+        hyphens: auto;
+
+    }
+    .services-img{
+        display: none;
+    }
+
+
+}
 
 

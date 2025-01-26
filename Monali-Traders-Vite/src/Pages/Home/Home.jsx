@@ -22,7 +22,9 @@ const Home =()=>{
             <div className='hero-content'>
                 <h1 className='company-title'>MONALI TRADERS</h1>
                 <h3 className='company-title-description'>Get Your Best <span className='equipment-word'>Equipment</span> here</h3>
-                <button onClick={goToProductsPage} className='hero-btn'>View Products</button>
+                <div className='hero-btn-container'>
+                     <button onClick={goToProductsPage} className='hero-btn'>View Products</button>
+                </div>
             </div>
             </div>
 

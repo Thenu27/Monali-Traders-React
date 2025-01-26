@@ -59,43 +59,173 @@
     cursor: pointer;
 }
 
+/*Small laps*/
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .company-title{
+        font-size: 130px;
+        width: 900px;
+    }
+    .company-title-description{
+        font-size: 40px;
 
-
-
-@media (max-width:476px) {
-    .hero-section{
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center; 
-        gap:15px;
-        margin: 0%;
-        margin-top: 80px;
 
     }
+    .hero-btn{
+        width: 160px;
+        height: 53px;
+        font-size: 16px;
+    }
+}
+
+/*tabs*/
+@media (min-width: 768px) and (max-width: 999px) {
     .company-title{
-        font-size: 90px;
-        line-height: 78%;
-        text-align: center;
-        margin: 0;
-        margin: auto;
+        font-size: 100px;
+        width: 900px;
+        height: 110px;
 
     }
     .company-title-description{
-        font-size: 30px;
-        text-align: center;
+        font-size: 33px;
+        width: 280px;
+        margin-top: 0;
+    }
+    .hero-btn{
+        width: 130px;
+        height: 45px;
+        font-size: 14px;
+        margin-top: 15px;
+
+    }
+  }
+
+/* Styles for larger phones */
+@media (min-width: 576px) and (max-width: 767px) {
+    .hero-content{
+        margin: 0%;
         margin: auto;
-        height: 40px;
+        margin-top: 80px;
+        width: 400px;
+    }
+    .company-title{
+        font-size: 120px;
+        width: 390px;
+        height: 165px;
+        line-height: 80%;
+        margin: auto;
+        text-align: center;
+
+    }
+    .company-title-description{
+        font-size: 33px;
+        width: 300px;
+        height: 50px;
+        margin: auto;
+        margin-top: 25px;
+        text-align: center;
+
     }
     .hero-btn{
         width: 150px;
-        height: 50px;
-        font-size: 16px;
+        height: 45px;
+        font-size: 14px;
+        margin: auto;
+        margin-top: 15px;
+        margin-left: 110px;
+
+    }
+}
+
+/*mobile*/
+@media (min-width:400px) and (max-width:575px) {
+    .hero-section{
+        height: 80vh;
+    }
+    .hero-content{
         margin: 0%;
         margin-left: auto;
         margin-right: auto;
-   
-   
+        margin-top: 100px;
+        width: 400px;
+    }
+    .company-title{
+        font-size: 90px;
+        width: 350px;
+        height: 125px;
+        line-height: 80%;
+        margin: auto;
+        text-align: center;
+
+    }
+    .company-title-description{
+        font-size: 35px;
+        width: 320px;
+        height: 30px;
+        margin: auto;
+        margin-top: 35px;
+        text-align: center;
+
+
+    }
+    .hero-btn{
+        width: 150px;
+        height: 45px;
+        font-size: 14px;
+        margin: auto;
+        margin-top: 25px;
+        margin-left: 110px;
+
+    }
+}
+
+/*Small mobile*/
+@media (max-width:400px){
+    .hero-section{
+        height: 85vh;
+        width: 100vw;
+    }
+    .hero-content{
+        margin: 0%;
+        width: 100vw;
+        margin: 0;
+        margin-top: 90px;
+        width: 100vw;
+    }
+    .company-title{
+        font-size: 80px;
+        width: 100vw;
+        height: 130px;
+        line-height: 80%;
+        text-align: center;
+
+    }
+    .company-title-description{
+        font-size: 32px;
+        width: 100vw;
+        height: 50px;
+        margin: 0;
+        margin-top: 15px;
+        text-align: center;
+
+    }
+    .hero-btn{
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        margin: 0%;
+
+    }
+
+    .hero-btn-container{
+        width: 150px;
+        margin: auto;
+        height: 45px;
+        justify-content: center;
+
+
+
+        
+
 
     }
 }

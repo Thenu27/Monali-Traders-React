@@ -82,3 +82,47 @@
 .trend-view-btn{
     margin-top:23px ;
 }
+
+@media (max-width:400px){
+    .trending-section{
+        overflow-x: auto;
+        height: 550px;
+    }
+    
+    .trending-product-container{
+        margin: 0%;
+        padding-left: 20px;
+        gap: 20px;
+        height: 470px;
+        width: 900px;
+        margin-top: 10px;
+
+
+
+    }
+    .trend-product-card{
+        width: 350px;
+        height: 400px;
+        margin: auto;
+
+    }
+    .trending-main-title{
+        padding-top:15px;
+    }
+    .trend-product-image{
+        height: 200px;
+    }
+    .trend-product-name{
+        font-size: 18px;
+    }
+
+    .trend-product-category{
+        font-size: 14px;
+    }
+    .view-btn{
+        width: 65px;
+        font-size: 13px;
+        height: 35px;
+    }
+
+}

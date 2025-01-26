@@ -9,9 +9,7 @@ const QuestionSection =()=>{
                     <h2 className='faq'>FAQ</h2>
                 </div>
             </div>
-            <div className='dropdown-section'>
                 <Dropdown/>
-            </div>
 
         </div>
     )

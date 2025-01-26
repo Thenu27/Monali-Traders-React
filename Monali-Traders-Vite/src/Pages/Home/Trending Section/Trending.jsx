@@ -2,8 +2,10 @@ import './Trending.css'
 import productimg from '../../../assets/Ariel Bundle Photo-min.jpg'
 const Trending = () =>{
     return(
+        <>
+        <h1 className='services-main-title trending-main-title'>Trending Items</h1>
+
         <div className='trending-section'>
-            <h1 className='services-main-title'>Trending Items</h1>
 
             <div className='trending-product-container'>
 
@@ -60,6 +62,7 @@ const Trending = () =>{
 
             </div>
         </div>
+        </>
     )
 }
 

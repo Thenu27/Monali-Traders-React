@@ -8,7 +8,7 @@ const Dropdown = () => {
   };
 
   return (
-    <div>
+    <div className="dropdown-section">
       <button
         className={`accordion ${activeIndex === 0 ? "active" : ""}`}
         onClick={() => handleClick(0)}

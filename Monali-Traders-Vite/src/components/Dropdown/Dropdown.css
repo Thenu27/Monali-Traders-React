@@ -51,3 +51,28 @@
 .answer{
   width:95%
 }
+
+@media (max-width:400px){
+  .dropdown-section{
+    margin-top: -60px;
+    padding: 0%;
+    width: 100vw;
+    height: auto;
+
+}
+  .accordion{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+
+
+  }
+  .panel{
+    max-width: 280px;
+
+  }
+
+}
