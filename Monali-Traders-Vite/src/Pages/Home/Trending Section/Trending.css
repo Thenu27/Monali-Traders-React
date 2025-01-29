@@ -1,18 +1,17 @@
 .trending-section{
-    height: 700px;
+    height: 600px;
 }
 
 
 .trending-product-container{
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 95vw;
     gap:50px;
-    margin-left:100px ;
     overflow-x: auto;
-    height: 550px;
-    margin-top: auto;
-    margin-bottom: auto;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
 
 
 }
@@ -24,7 +23,7 @@
 .trend-product-card{
     width:288px;
     height: 451.13px;
-    /* border:1px solid black; */
+    margin: auto;
     border-radius: 34px;
     box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.25);
 
@@ -81,6 +80,189 @@
 
 .trend-view-btn{
     margin-top:23px ;
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .trending-section{
+        overflow-x: auto;
+        height: 520px;
+        margin-top:-50px;
+    }
+    
+    .trending-product-container{
+        margin: 0%;
+        padding-left: 20px;
+        gap: 20px;
+        height: 470px;
+        width: 1150px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 20px;
+
+
+
+    }
+    .trend-product-card{
+        width: 350px;
+        height: 400px;
+        margin: auto;
+
+    }
+    .trending-main-title{
+        padding-top:15px;
+        font-size: 90px;
+    }
+    .trend-product-image{
+        height: 200px;
+    }
+    .trend-product-name{
+        font-size: 18px;
+    }
+
+    .trend-product-category{
+        font-size: 14px;
+    }
+    .view-btn{
+        width: 65px;
+        font-size: 13px;
+        height: 35px;
+    }
+}
+@media (min-width: 768px) and (max-width: 999px) {
+    .trending-section{
+        overflow-x: auto;
+        height: 570px;
+        margin-top:-50px;
+    }
+    
+    .trending-product-container{
+        margin: 0%;
+        padding-left: 20px;
+        gap: 20px;
+        height: 470px;
+        width: 1100px;
+        margin-top: 30px;
+
+
+
+    }
+    .trend-product-card{
+        width: 350px;
+        height: 400px;
+        margin: auto;
+
+    }
+    .trending-main-title{
+        padding-top:15px;
+        font-size: 80px;
+    }
+    .trend-product-image{
+        height: 200px;
+    }
+    .trend-product-name{
+        font-size: 18px;
+    }
+
+    .trend-product-category{
+        font-size: 14px;
+    }
+    .view-btn{
+        width: 65px;
+        font-size: 13px;
+        height: 35px;
+    }
+  }
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .trending-section{
+        overflow-x: auto;
+        height: 520px;
+        margin-top:-50px;
+    }
+    
+    .trending-product-container{
+        margin: 0%;
+        padding-left: 20px;
+        gap: 20px;
+        height: 470px;
+        width: 1000px;
+        margin-top: 10px;
+
+
+
+    }
+    .trend-product-card{
+        width: 350px;
+        height: 400px;
+        margin: auto;
+
+    }
+    .trending-main-title{
+        padding-top:15px;
+        font-size: 65px;
+    }
+    .trend-product-image{
+        height: 200px;
+    }
+    .trend-product-name{
+        font-size: 18px;
+    }
+
+    .trend-product-category{
+        font-size: 14px;
+    }
+    .view-btn{
+        width: 65px;
+        font-size: 13px;
+        height: 35px;
+    }
+}
+
+@media (min-width:400px) and (max-width:575px) {
+    .trending-section{
+        overflow-x: auto;
+        height: 520px;
+        margin-top:-50px;
+    }
+    
+    .trending-product-container{
+        margin: 0%;
+        padding-left: 20px;
+        gap: 20px;
+        height: 470px;
+        width: 900px;
+        margin-top: 10px;
+
+
+
+    }
+    .trend-product-card{
+        width: 350px;
+        height: 400px;
+        margin: auto;
+
+    }
+    .trending-main-title{
+        padding-top:15px;
+        font-size: 55px;
+    }
+    .trend-product-image{
+        height: 200px;
+    }
+    .trend-product-name{
+        font-size: 18px;
+    }
+
+    .trend-product-category{
+        font-size: 14px;
+    }
+    .view-btn{
+        width: 65px;
+        font-size: 13px;
+        height: 35px;
+    }
+
 }
 
 @media (max-width:400px){

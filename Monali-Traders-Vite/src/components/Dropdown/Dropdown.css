@@ -52,6 +52,113 @@
   width:95%
 }
 
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .accordion{
+      width: 60vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 999px) {
+  .dropdown-section{
+    margin-top: -40px;
+    padding: 0%;
+    width: 100vw;
+    height: auto;
+
+}
+  .accordion{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+  }
+
+  .accordion.active,
+.accordion:hover {
+  background-color: #fecaca;
+  width: 90vw;
+
+}
+
+  .panel{
+    width: 90vw;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 18px;
+
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .dropdown-section{
+    margin-top: -40px;
+    padding: 0%;
+    width: 100vw;
+    height: auto;
+
+}
+  .accordion{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+  }
+
+  .accordion.active,
+.accordion:hover {
+  background-color: #fecaca;
+  width: 90vw;
+
+}
+
+  .panel{
+    max-width: 90vw;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 18px;
+
+  }
+
+}
+
+@media (min-width:400px) and (max-width:575px) {
+  .dropdown-section{
+    margin-top: -40px;
+    padding: 0%;
+    width: 100vw;
+    height: auto;
+
+}
+  .accordion{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+  }
+
+  .accordion.active,
+.accordion:hover {
+  background-color: #fecaca;
+  width: 90vw;
+
+}
+
+  .panel{
+    max-width: 90vw;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+}
+
+
 @media (max-width:400px){
   .dropdown-section{
     margin-top: -60px;
@@ -72,6 +179,9 @@
   }
   .panel{
     max-width: 280px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 16px;
 
   }
 

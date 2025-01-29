@@ -34,7 +34,7 @@ const Services=()=>{
 
 
              <div className='service-container'>
-                <h1 className='service-title'>Competitive Pricing Strategy</h1>
+                <h1 className='service-title pricing-title'>Competitive Pricing Strategy</h1>
                 <p className='service-description'>Our competitive pricing strategy ensures you receive the 
                     best value for your investment. We offer affordable rates while maintaining the highest 
                     standards of quality in our products and services. By optimizing our resources and processes, we balance cost-effectiveness 
