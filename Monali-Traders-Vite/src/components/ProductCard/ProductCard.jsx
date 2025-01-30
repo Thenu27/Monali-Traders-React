@@ -6,7 +6,7 @@ const ProductCard = ({ category }) => {
 
     const renderProducts = () => {
         return data[category].map((product, i) => (
-                <div className='trend-product-card product-card'>
+                <div key={i} className='product-card'>
                     <div className='trend-product-image '>
                         <img
                             src={'../../assets/Home-min (2).jpg'} 
@@ -27,8 +27,9 @@ const ProductCard = ({ category }) => {
                 <h1 className='category'>{category}</h1>
             </div>
             <div  className='products-container'>
-
-            { renderProducts()}
+                <div className='products-inner-container'>
+                     { renderProducts()}
+                </div>
             </div>
 
 

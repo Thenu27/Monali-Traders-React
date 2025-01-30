@@ -1,15 +1,25 @@
 .products-container{
+
+    overflow: auto;
+
+}
+.products-inner-container{
     display: flex;
     flex-direction: row;
     gap:37px;
     min-height: 512px;
-
+    min-width: 20vw;
+    padding-left: 20px;
 }
 
 .product-card{
-    width: 258px;
-    min-height: 412px;
     margin-top: 20px;
+    width:288px;
+    height: 451.13px;
+    border-radius: 34px;
+    box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.25);
+
+
 }
 .product-img{
     width:221px;
@@ -33,4 +43,196 @@
 .product-view-btn{
     margin-left: 17px;
 
+}
+
+.category-container{
+    width: 90%;
+    height: 64px;
+    background-color: #FF4747;
+    border-radius: 10px;
+    margin-top: 29px;
+}
+
+.category{
+    font-family: 'Teko',sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+    margin-right: auto;
+    height: 100%;
+    /* width: 420px; */
+    text-align: left;
+    align-content: center;
+    padding-left: 15px;
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .products-inner-container{
+        min-width: 564px;
+        padding-left: 10px;
+        gap: 25px;
+    }
+    .category-container{
+        height: 60px;
+    }
+    .category{
+        font-size: 33px;
+    }
+    .product-card{
+        width: 270px;
+        height: 420px;
+    }
+    .product-img{
+        width: 150px;
+        height: 50%;
+        border: 1px solid black;
+    }
+    .product-name{
+        font-size: 20px;
+        margin-left: 12px;
+    }
+    .product-intro{
+        font-size: 18px;
+        margin-left: 12px;
+    }
+    .product-view-btn{
+        margin-left: 12px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 999px) {
+    .products-inner-container{
+        min-width: 564px;
+        padding-left: 10px;
+        gap: 25px;
+    }
+    .category-container{
+        height: 50px;
+    }
+    .category{
+        font-size: 30px;
+    }
+    .product-card{
+        width: 250px;
+        height: 410px;
+    }
+    .product-img{
+        width: 150px;
+        height: 50%;
+        border: 1px solid black;
+    }
+    .product-name{
+        font-size: 19px;
+        margin-left: 12px;
+    }
+    .product-intro{
+        font-size: 17px;
+        margin-left: 12px;
+    }
+    .product-view-btn{
+        margin-left: 12px;
+    }    
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .products-inner-container{
+        min-width: 564px;
+        padding-left: 10px;
+        gap: 25px;
+    }
+    .category-container{
+        height: 50px;
+    }
+    .category{
+        font-size: 30px;
+    }
+    .product-card{
+        width: 250px;
+        height: 410px;
+    }
+    .product-img{
+        width: 150px;
+        height: 50%;
+        border: 1px solid black;
+    }
+    .product-name{
+        font-size: 19px;
+        margin-left: 12px;
+    }
+    .product-intro{
+        font-size: 17px;
+        margin-left: 12px;
+    }
+    .product-view-btn{
+        margin-left: 12px;
+    }
+}
+
+@media (min-width:400px) and (max-width:575px) {
+    .products-inner-container{
+        min-width: 500px;
+        padding-left: 10px;
+        gap: 15px;
+    }
+    .category-container{
+        height: 50px;
+    }
+    .category{
+        font-size: 30px;
+    }
+    .product-card{
+        width: 230px;
+        height: 440px;
+    }
+    .product-img{
+        width: 150px;
+        height: 50%;
+        border: 1px solid black;
+    }
+    .product-name{
+        font-size: 19px;
+        margin-left: 12px;
+    }
+    .product-intro{
+        font-size: 17px;
+        margin-left: 12px;
+    }
+    .product-view-btn{
+        margin-left: 12px;
+    }
+}
+
+
+@media (max-width:400px) {
+    .products-inner-container{
+        width: 500px;
+        padding-left: 10px;
+        gap: 15px;
+    }
+    .category-container{
+        height: 40px;
+    }
+    .category{
+        font-size: 27px;
+    }
+    .product-card{
+        width: 200px;
+        height: 420px;
+    }
+    .product-img{
+        width: 150px;
+        height: 50%;
+        border: 1px solid black;
+    }
+    .product-name{
+        font-size: 18px;
+        margin-left: 12px;
+    }
+    .product-intro{
+        font-size: 16px;
+        margin-left: 12px;
+    }
+    .product-view-btn{
+        margin-left: 12px;
+    }
 }
