@@ -1,0 +1,118 @@
+
+.about-title-container{
+    width:100vw;
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.about-title{
+    font-family: 'Teko',sans-serif;
+    font-size: 4.23vw;
+    color: #FF0000;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+}
+
+.about-content{
+    margin-bottom: 50px;
+
+}
+
+.about-description-container{
+    width:100vw;
+    width:83vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about-description{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.52vw;
+    font-weight: 300;
+    text-align: center;
+    line-height: 175%;
+}
+.about-content{
+    margin-top: 20px;
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .about-content{
+        margin-bottom: 50px;
+    }
+    .about-title{
+        font-size: 48px;
+    }
+    .about-title-container{
+        height: 50px;
+    }
+    .about-description{
+        font-size: 20px;
+    }
+}
+
+/*tabs*/
+@media (min-width: 768px) and (max-width: 999px) {
+    .about-content{
+        margin-bottom: 50px;
+    }
+    .about-title{
+        font-size: 46px;
+    }
+    .about-title-container{
+        height: 50px;
+    }
+    .about-description{
+        font-size: 19px;
+    }
+  }
+
+/* Styles for larger phones */
+@media (min-width: 576px) and (max-width: 767px) {
+    .about-content{
+        margin-bottom: 50px;
+    }
+    .about-title{
+        font-size: 44px;
+    }
+    .about-title-container{
+        height: 50px;
+    }
+    .about-description{
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width:400px) and (max-width:575px) {
+
+    .about-content{
+        margin-bottom: 50px;
+    }
+    .about-title{
+        font-size: 40px;
+    }
+    .about-title-container{
+        height: 50px;
+    }
+    .about-description{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:400px){
+    .about-content{
+        margin-bottom: 50px;
+    }
+    .about-title{
+        font-size: 34px;
+    }
+    .about-title-container{
+        height: 35px;
+    }
+    .about-description{
+        font-size: 15px;
+    }
+}

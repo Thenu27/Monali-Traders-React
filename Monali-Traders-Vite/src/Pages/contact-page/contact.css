@@ -1,7 +1,9 @@
 .contact-container{
     display: flex;
     flex-direction: row;
-    gap:91px
+    gap:0px;
+    width:100vw;
+
 }
 
 
@@ -10,11 +12,13 @@
     flex-direction: column;
     margin-left: 75px;
     margin-top: 85px;
+    width: 50vw;
+
 }
 
 
 .contact-title{
-    font-size: 55px;
+    font-size: 4vw;
     font-family: 'Teko',sans-serif;
     font-weight: 500;
     color: #FF4747;
@@ -25,8 +29,8 @@
 }
 
 .contact-input-name{
-    width:538px;
-    height: 47px;
+    width:70%;
+    height: 6vh;
     border-radius: 23px;
     border: 1px solid #FF4747;
     margin-top: 15px;
@@ -34,8 +38,8 @@
 
 .contact-input-message{
     resize: none;
-    width: 538px;
-    height: 237px;
+    width:70%;
+    height: 25vh;
     overflow: auto;
 }
 
@@ -50,16 +54,20 @@
 }
 .location-container{
     margin-top: 94px;
+    width: 50vw;
+
 }
 .location{
-    width: 632px;
+    width: 80%;
     height: 517px;
     border-radius: 16px;
+    border: 2px solid #FF4747;
+
 }
 
 .contact-card{
     box-shadow: 0px 3px 15.2px rgba(0, 0, 0, 0.25);
-    width: 484.12px;
+    width:30vw;
     height:204.72px;
     margin: auto;
     margin-top: 112px;
@@ -122,6 +130,353 @@
     margin: 0;
     margin-left: auto;
     align-content: center;
+}
+/*Small laps*/
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .contact-container{
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        width: 700px;
+        margin-top: 10px
+    }
+    .contact-title{
+        font-size: 45px;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .contact-input-name{
+        width: 80%;
+        height: 40px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .contact-input-message{
+        height: 130px;
+    }
+    .contact-submit-btn{
+        margin-left: 60px;
+         margin-top: 20px;
+    }
+    .location-container{
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+
+
+
+    }
+
+.contact-submit-btn{
+    margin: 0%;
+    margin-right: auto;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+    .location{
+        width: 420px;
+        height: 330px;
+    }
+}
+
+/*tabs*/
+@media (min-width: 768px) and (max-width: 999px) {
+    .contact-container{
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        width: 100vw;
+        margin-top: 10px
+    }
+    .contact-title{
+        font-size: 45px;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .contact-input-name{
+        width: 80%;
+        height: 40px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .contact-input-message{
+        height: 130px;
+    }
+    .contact-submit-btn{
+        margin-left: 60px;
+         margin-top: 20px;
+    }
+    .location-container{
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+
+
+
+    }
+    .location{
+        width: 320px;
+        height: 330px;
+        border: 1px solid #FF4747;
+    }
+
+    .contact-card{
+        width: 360px;
+        height: 130px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .contact-name{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .email{
+        font-size: 13px;
+    }
+    .contact-location{
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .phone{
+        font-size: 13px;
+    }
+}
+
+/* Styles for larger phones */
+@media (min-width: 576px) and (max-width: 767px) {
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        width: 100vw;
+        margin-top: 10px
+    }
+    .contact-title{
+        font-size: 45px;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .contact-input-name{
+        width: 80%;
+        height: 40px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .contact-input-message{
+        height: 130px;
+    }
+    .contact-submit-btn{
+        width: 130px;
+        height: 40px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .location-container{
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+
+
+
+    }
+    .location{
+        width: 480px;
+        height: 250px;
+        border: 1px solid #FF4747;
+    }
+
+    .contact-card{
+        width: 360px;
+        height: 130px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .contact-name{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .email{
+        font-size: 13px;
+    }
+    .contact-location{
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .phone{
+        font-size: 13px;
+    }
+}
+/*mobile*/
+@media (min-width:400px) and (max-width:575px) {
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        width: 100vw;
+        margin-top: 10px
+    }
+    .contact-title{
+        font-size: 35px;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .contact-input-name{
+        width: 80%;
+        height: 30px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .contact-input-message{
+        height: 100px;
+    }
+    .contact-submit-btn{
+        width: 100px;
+        height: 30px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .location-container{
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+
+
+
+    }
+    .location{
+        width: 380px;
+
+        height: 200px;
+        border: 1px solid #FF4747;
+    }
+
+    .contact-card{
+        width: 380px;
+        height: 130px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .contact-name{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .email{
+        font-size: 13px;
+    }
+    .contact-location{
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .phone{
+        font-size: 13px;
+    }
+
+}
+
+
+@media(max-width:400px){
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        width: 100vw;
+        margin-top: 10px
+    }
+    .contact-title{
+        font-size: 35px;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .contact-input-name{
+        width: 80%;
+        height: 30px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .contact-input-message{
+        height: 100px;
+    }
+    .contact-submit-btn{
+        width: 100px;
+        height: 30px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .location-container{
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+
+
+
+    }
+    .location{
+        width: 100%;
+        height: 200px;
+        border: 1px solid #FF4747;
+    }
+
+    .contact-card{
+        width: 90%;
+        height: 130px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .contact-name{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .email{
+        font-size: 13px;
+    }
+    .contact-location{
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .phone{
+        font-size: 13px;
+    }
+
+    
 }
 
 

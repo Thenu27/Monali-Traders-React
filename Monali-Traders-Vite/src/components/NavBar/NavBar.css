@@ -103,6 +103,7 @@
 @media (min-width:400px) and (max-width:575px) {
     .nav-link{
         font-size: 15px;
+        cursor: pointer;
     }
     .logo-img{
         height: 50px;

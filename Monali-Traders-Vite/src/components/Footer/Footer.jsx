@@ -1,18 +1,40 @@
 import './Footer.css';
 import logo from '../../assets/Logo.png';
+import { useNavigate } from 'react-router-dom';
+
 
 const Footer=()=>{
+
+    const navigate = useNavigate();
+
+    const goToContactPage =()=>{
+        navigate('/contact')
+    }
+
+    const goTOHome=()=>{
+        navigate('/')
+    }
+
+    const goToProductsPage =()=>{
+        navigate('/products')
+    }
+
+    const goToAboutPage =()=>{
+        navigate('/about')
+    }
+
+
     return(
         <div className='footer-container'>
             <div className='footer-row-1'>
                 <div className='footer-logo-container'>
-                    <img className='footer-logo' src={logo} alt={'Company logo'}/>
+                    <img onClick={goTOHome} className='footer-logo' src={logo} alt={'Company logo'}/>
                 </div>
                 <div className='footer-link-container'>
-                    <a className='footer-link' href='#'>Home</a>
-                    <a className='footer-link' href='#'>Contact</a>
-                    <a className='footer-link' href='#'>About</a>
-                    <a className='footer-link' href='#'>Products</a>
+                    <a onClick={goTOHome} className='footer-link'>Home</a>
+                    <a onClick={goToContactPage}className='footer-link'>Contact</a>
+                    <a onClick={goToProductsPage}className='footer-link'>About</a>
+                    <a onClick={goToAboutPage} className='footer-link'>Products</a>
                 </div>
             </div>
             <div className='divider'></div>

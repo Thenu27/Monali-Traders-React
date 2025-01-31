@@ -1,6 +1,6 @@
 .footer-container{
     background-color: #FF1313;
-    height: 392px;
+    height: 350px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 
@@ -11,20 +11,22 @@
 }
 
 .footer-logo{
-    width: 151.85px;
-    height: 123.61px;
+    width: 100px;
+    height: 90px;
 }
 
 
 .footer-link-container{
     margin-left: auto;
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Roboto',sans-serif;
     margin-right: 91px;
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10px;
     gap:45px
 }
 .footer-link {
@@ -34,6 +36,8 @@
 .footer-row-1{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+
 }
 
 .divider{
@@ -57,4 +61,202 @@
     margin-top: 117px;
     width: 100vw;
 
+}
+
+
+/*Small laps*/
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .footer-container{
+        height: 200px;
+    }
+    .footer-logo-container{
+        margin: 0%;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    
+    .footer-logo{
+        width: 90px;
+        height: 80px
+    }
+    .footer-link-container{
+        gap:45px;
+        margin: 0%;
+        margin-left: auto;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    .footer-link{
+        font-size: 18px;
+        align-content: center;
+    }
+    .divider{
+        margin-top: 13px;
+    }
+    .copyright-container{
+        margin-top: 40px;
+    }
+
+    .copyright{
+        font-size: 16px;        
+    }
+  }
+
+
+  /*tabs*/
+@media (min-width: 768px) and (max-width: 999px) {
+    .footer-container{
+        height: 200px;
+    }
+    .footer-logo-container{
+        margin: 0%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .footer-logo{
+        width: 80px;
+        height: 70px
+    }
+    .footer-link-container{
+        gap:30px;
+        margin: 0%;
+        margin-left: auto;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    .footer-link{
+        font-size: 18px;
+        align-content: center;
+    }
+    .divider{
+        margin-top: 13px;
+    }
+    .copyright-container{
+        margin-top: 40px;
+    }
+
+    .copyright{
+        font-size: 16px;        
+    }
+}
+
+
+/* Styles for larger phones */
+@media (min-width: 576px) and (max-width: 767px) {
+    .footer-container{
+        height: 200px;
+    }
+    .footer-logo-container{
+
+        margin: 0%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .footer-logo{
+        width: 80px;
+        height: 70px
+    }
+    .footer-link-container{
+        gap:30px;
+        margin: 0%;
+        margin-left: auto;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    .footer-link{
+        font-size: 18px;
+        align-content: center;
+    }
+    .divider{
+        margin-top: 13px;
+    }
+    .copyright-container{
+        margin-top: 40px;
+    }
+
+    .copyright{
+        font-size: 16px;        
+    }
+}
+
+
+/*mobile*/
+@media (min-width:400px) and (max-width:575px) {
+    .footer-container{
+        height: 200px;
+    }
+    .footer-logo-container{
+        margin: 0%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    
+    .footer-logo{
+        width: 70px;
+        height: 60px
+    }
+    .footer-link-container{
+        gap:10px;
+        margin: 0%;
+        margin-left: auto;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    .footer-link{
+        font-size: 17px;
+        align-content: center;
+    }
+    .divider{
+        margin-top: 13px;
+    }
+    .copyright-container{
+        margin-top: 40px;
+    }
+
+    .copyright{
+        font-size: 15px;        
+    }
+}
+
+
+
+@media(max-width:400px){
+
+    .footer-container{
+        height: 200px;
+    }
+    .footer-logo-container{
+        margin: 0%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    
+    .footer-logo{
+        width: 60px;
+        height: 50px
+    }
+    .footer-link-container{
+        gap:10px;
+        margin: 0%;
+        margin-left: auto;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    .footer-link{
+        font-size: 15px;
+        align-content: center;
+    }
+    .divider{
+        margin-top: 13px;
+    }
+    .copyright-container{
+        margin-top: 40px;
+    }
+
+    .copyright{
+        font-size: 14px;        
+    }
+    
 }

@@ -17,6 +17,10 @@ const DefaultNav =()=>{
         navigate('/products')
     }
 
+    const goToAboutPage =()=>{
+        navigate('/about')
+    }
+
     const location =useLocation();
 
 
@@ -29,9 +33,9 @@ const DefaultNav =()=>{
 
             <div className='nav-link-container default-nav-link-container'>
                 
-                    <a onClick={goTOHome} className='nav-link' href="#">Home</a>                
-                    <a onClick={goToProductsPage} className='nav-link' href="#">Products</a>
-                    <a className='nav-link' href="#">About</a>
+                    <a onClick={goTOHome} className='nav-link' >Home</a>                
+                    <a onClick={goToProductsPage} className='nav-link' >Products</a>
+                    <a onClick={goToAboutPage} className='nav-link' >About</a>
 
                 
 
