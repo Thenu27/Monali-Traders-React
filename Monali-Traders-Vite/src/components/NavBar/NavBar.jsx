@@ -24,7 +24,7 @@ const NavBar =()=>{
     return(
         <div className='nav-container'>
             <div className='logo-container'>
-                <img className='logo-img' src={logo}/>
+                <img  onClick={goTOHome} className='logo-img' src={logo}/>
             </div>
 
             <div className='nav-link-container'>

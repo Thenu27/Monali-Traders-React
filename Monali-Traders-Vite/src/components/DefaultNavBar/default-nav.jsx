@@ -28,7 +28,7 @@ const DefaultNav =()=>{
     return(
         <div className={location.pathname==='/'? 'not-display':'default-nav-container'}>
             <div className='logo-container'>
-                <img className='logo-img-default' src={logo}/>
+                <img onClick={goTOHome} className='logo-img-default' src={logo}/>
             </div>
 
             <div className='nav-link-container default-nav-link-container'>

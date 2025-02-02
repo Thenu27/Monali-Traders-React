@@ -18,7 +18,12 @@
     font-size: 18px;
     color: white;
     font-weight: 400;
+    cursor: pointer;
+}
 
+.nav-link:hover{
+    color: white;
+    border-bottom:2px solid white;    
 }
 
 .logo-img{
